@@ -3,5 +3,9 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /.*
+- url: /redirect/
   script: buster.app
+
+- url: /
+  static_files: index.html
+  upload: index\.html
