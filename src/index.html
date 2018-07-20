@@ -30,8 +30,10 @@
                 };
             });
     </script>
-    <div layout="row" layout-fill layout-align="center center" ng-controller="MainCtrl">
+    <div layout="row" layout-fill ng-controller="MainCtrl">
+        <div flex></div>
         <div layout="column" flex=50>
+            <div flex></div>
             <p style="text-align:center">Your badges not updating in GitHub readme? Use this custom URL to bypass the cashing! More details at <a href="https://github.com/github/markup/issues/224">GitHub</a>.</p>
             <md-input-container class="md-block">
                 <label>Enter your URL here</label>
@@ -46,7 +48,12 @@
                     <md-icon md-font-icon="classname">file_copy</md-icon>
                 </md-button>
             </div>
+            <div flex></div>
+            <div layout="row" layout-align="center center">
+                <p class="md-caption">Source code: <a href="https://github.com/rkkr/cache-buster">GitHub</a>.  Licensed under the Apache License 2.0.</p>
+            </div>
         </div>
+        <div flex></div>
     </div>
 </body>
 </html>
