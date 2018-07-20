@@ -4,7 +4,7 @@ Some image service don't use proper headers which breaks proper cache refresh in
 no-cache header to responses.
 More information at: https://github.com/github/markup/issues/224
 
-Service hosted at: https://cache-buster.appspot.com/?redirecturl={your_image_url_here}
+Service hosted at: https://cache-buster.appspot.com/
 
 Running the service:
 - Download SDK: https://cloud.google.com/sdk/docs/quickstart-linux
